@@ -1,0 +1,167 @@
+body {
+
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+body .cabecalho {
+     display: flex;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     padding: 15px 0;
+     gap: 80px;
+     z-index: 1000;
+     align-items: center;
+     justify-content: center;
+     height: 30px;
+     background-color: var(--cinza);
+}
+
+body .cabecalho img{
+     width: 100px;
+     height: 100px;
+}
+
+body .cabecalho a{
+     text-decoration: none;
+     font-family: 'Mali';
+     color: var(--preto);
+     
+}
+
+main{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     
+}
+.title-text{
+     padding-top: 200px;
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     left: 20%;
+     font-size: 90px;
+     width: 300px;
+     height: 300px;
+     gap: 27px;
+
+
+}
+.botao{
+ background-color: var(--preto);
+  border-radius: 32px;
+  color: var(--white);
+  font-size: 20px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-weight: 550;
+}
+.first-title{
+     font-family: 'Mali'; 
+     color: var(--primarybege);
+     height: 50px;
+}
+.second-title{
+     font-family: 'Mali'; 
+     color: var(--primarybege);
+     display: flex;
+     justify-content: flex-end;
+     
+}
+.subtitle{
+     font-family: 'Mali'; 
+     color: var(--primarybege);
+     font-size: 21px;
+     width: 350px;
+   
+}
+
+.ilustration-section{
+     width: 100%;
+     height: 800px;
+     background-image: url(/assets/image\ 1\ \(1\).png);
+     background-size: cover;
+}
+body main .coffee {
+     height: 600px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     align-items: center;
+     justify-content: center;
+     background-image: url(/assets/bg-imagenew.png);
+     background-repeat: no-repeat; 
+     background-size: cover; 
+  
+     
+   }
+   
+   body main .coffee h1 {
+     color: var(--preto);
+     font-family: 'Mali';
+     font-size: 40px;
+     font-weight: bold;
+   
+   }
+   
+   body main .coffees-area {
+     position: relative;
+     width: 400px;
+     height: 450px;
+     overflow: hidden;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   }
+   
+   .carousel {
+     display: flex;
+     overflow: hidden;
+     width: 100%;
+   }
+   
+   .carousel-inner {
+     display: flex;
+     transition: transform 0.5s ease;
+   }
+   
+   .carousel-item {
+     min-width: 100%;
+     transition: transform 0.5s ease;
+   }
+   
+   .carousel-item img {
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+   }
+   
+   .custom-nav {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     transform: translateY(-50%);
+   }
+   
+   .custom-nav .custom-prev,
+   .custom-nav .custom-next {
+     background: #fff;
+     padding: 5px 10px;
+     border-radius: 50%;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+     user-select: none;
+   }
+   
+   .custom-nav .custom-prev:hover,
+   .custom-nav .custom-next:hover {
+     background: #ddd;
+   }
